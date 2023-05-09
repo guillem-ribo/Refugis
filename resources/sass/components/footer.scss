@@ -1,0 +1,23 @@
+footer{
+  background: $black;
+  padding-bottom:0!important;
+
+  *,li{
+     color:$white;
+     text-align: center;
+  }
+  a{
+      color:$grey;
+      &:hover{
+          color:$garnet;
+      }
+  }
+
+  .copyright{
+      background:$grey;
+      text-align: center;
+      margin-top:30px;
+      padding:30px;
+      color:$black;
+  }
+}

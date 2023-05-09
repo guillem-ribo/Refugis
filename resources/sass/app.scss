@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// scss variables definition
+@import '_variables';
+@import 'mixins';
+
+// Bootsrap
+@import "~bootstrap/scss/bootstrap";
+
+//components
+@import 'components/fonts';
+//@import 'components/splash';
+//@import 'components/slick';
+//@import 'components/icones';
+//@import 'components/header';
+@import 'components/footer';
+
+// Custom styles
+@import '_common';
+
+//font awesome
+@import '~@fortawesome/fontawesome-free/css/all.css';
